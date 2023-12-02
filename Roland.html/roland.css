@@ -1,0 +1,273 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+html,
+body {
+  margin: 0 auto;
+  padding: 0px;
+  font-family: Tahoma, sans-serif;
+}
+.black__v.black__bg {
+  background-color: #100e17;
+}
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.row__re {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  overflow: auto;
+  /* margin: auto; */
+}
+header {
+  padding: 10px 0;
+  padding-bottom: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  background-color: #202026;
+  border-bottom: 1px solid gold;
+}
+.header {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background-color: #202026;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.header__container {
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin: 0.4rem 0;
+}
+#progress__bar {
+  display: none;
+  margin-top: 10px;
+  border: 1px solid gold;
+}
+.nav {
+  width: 100%;
+  display: flex;
+}
+.site__name {
+  width: 40%;
+  padding-right: 0.3rem;
+}
+.view-more {
+  text-align: center;
+  margin: 24px auto;
+}
+.view-more a {
+  border: 1px solid gold;
+  padding: 12px 18px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.view-more a:hover {
+  color: #fff;
+  background-color: gold;
+}
+#me {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  padding-right: 0.3rem;
+}
+.box__hermburger {
+  display: none;
+}
+.navItem__container {
+  width: 100%;
+}
+.nav__item {
+  width: 75%;
+  list-style-type: none;
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+#closebtn {
+  display: none;
+}
+.nav__item li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.4rem;
+  -webkit-transition: color 0.3s ease;
+}
+.nav__item li a:hover {
+  color: gold;
+}
+#bkg{
+  background-color: black;
+}
+.welcome{
+  width: 100%;
+}
+.main {
+  min-width: 100%;
+}
+.sec__sub__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(20, 16, 36, 0.9);
+}
+
+.about {
+  height: 85vh;
+  background: transparent;
+}
+.salut_area__container {
+  height: 100%;
+}
+.salut_area,
+.image__area {
+  color: white;
+  align-items: center;
+  margin: auto 0;
+  
+}
+.salute {
+  background-color: gold;
+  color: #000;
+  font-size: 0.9rem;
+  line-height: 24px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 0px;
+}
+#name {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 65px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#occupation {
+  font-size: 26px;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+#yrs {
+  font-size: 15px;
+}
+.social__account,
+.address {
+  list-style-type: none;
+  padding: 0;
+}
+.address li {
+  margin: 1rem 0;
+}
+.social__account {
+  display: flex;
+}
+#twitter,
+#github,
+#linkedin,
+#whatsap {
+  padding: 0.2rem 1rem;
+  margin: 0 0.2rem;
+  transition: 0.3ms;
+}
+#twitter a,
+#github a,
+#linkedin a,
+#whatsap a {
+  text-decoration: none;
+  color: white;
+}
+#twitter a {
+  color: pink;
+}
+#whatsap a {
+  color: rgb(174, 106, 190);
+}
+#twitter:hover,
+#github:hover,
+#linkedin:hover,
+#whatsap:hover {
+  background: gold;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.image__me {
+  width: 100%;
+
+}
+.icons {
+  margin-right: 0.5rem;
+}
+.links {
+  text-decoration: none;
+  color: white;
+}
+.address__name {
+  display: inline-block;
+  font-style: normal;
+  margin-bottom: 1rem;
+}
